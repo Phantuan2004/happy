@@ -39,7 +39,7 @@ body{
 
 @media screen and (max-width: 767px) {
     .container .boxcontainer {
-        width: 440px;
+        width: 400px;
     }
 }
 
