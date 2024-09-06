@@ -36,6 +36,13 @@ body{
     animation: bgr 4s forwards;
     transition: 1s;
 }
+
+@media screen and (max-width: 767px) {
+    .container .boxcontainer {
+        width: 100%;
+    }
+}
+
 @keyframes bgr {
     0%{
         opacity: 0;
