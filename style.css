@@ -13,6 +13,7 @@ body{
     background: linear-gradient(to right, #FBDAE9, #EFB0C9);
     overflow: hidden;
 }
+
 .container{
     position: relative;
     width: 100%;
@@ -36,6 +37,13 @@ body{
     animation: bgr 4s forwards;
     transition: 1s;
 }
+
+@media screen and (max-width: 767px) {
+    .container .boxcontainer {
+        width: 460px;
+    }
+}
+
 @keyframes bgr {
     0%{
         opacity: 0;
